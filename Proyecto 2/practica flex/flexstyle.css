@@ -1,0 +1,16 @@
+.row {
+ width: auto; /* Acá va 1 propiedad */
+  }
+    
+  .col {
+    width: 30%;
+  /* Acá van 4 propiedades */
+  }
+    
+  .col-2 {   width: 30%;
+  /* Acá va 1 propiedad */
+  }
+    
+  .col-3 {   width: 30%;
+  /* Acá va 1 propiedad */
+  }

@@ -1,0 +1,40 @@
+*{
+    background-color: cyan;
+}
+h1{
+    color: darkgreen;
+    background-color: aquamarine;
+}
+p{
+    color: gold;
+}
+.segundo{
+    color: fuchsia;
+    background-color: lightgreen;
+}
+.tercero{
+    color: hotpink;
+    background-color: darkslategrey;
+}
+.cuarto{
+    color: violet;
+    background-color: crimson;
+    font-size: larger;
+}
+#quinto{
+    color: yellow;
+    background-color: darkcyan;
+    font-size: xx-small;
+}
+#container p.highlight {
+    font-weight: bold;
+    color: #ff0000; 
+}
+
+#container p {
+    font-weight: bold;
+    color: #ffffff; 
+}
+input[type=password]{
+    border-radius: 100px;
+}

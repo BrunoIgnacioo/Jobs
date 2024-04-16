@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(6, 50, 100, 0.678);
+}
+h1{
+    color:rgb(90, 2, 2);
+    font-size:  50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h2{
+    background-color: rgba(84, 209, 105, 0.507) ; height: 60;  width: 500;
+}
+/* classes en css*/
+.parrafo{
+    background-color: rgb(105, 26, 26);
+    color: aquamarine;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+/*referencia a un id*/
+#container {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1em;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: darkblue;
+    margin-top: 20px;
+    margin-left: 25px;
+}

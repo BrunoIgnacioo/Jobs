@@ -1,0 +1,25 @@
+.busca {
+    width: 10%;
+    height: 45%;
+    color: white;
+    background-color:gray;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.mas{
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    align-self: center;
+}
+.crear {
+    width: 20%;
+    height: 25%;
+    background-color: aqua;
+    color: white;
+    border: none;
+    box-shadow: 4px 4px 8px 8px grey;   
+}

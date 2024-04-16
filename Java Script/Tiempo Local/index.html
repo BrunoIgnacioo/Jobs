@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>TiempoDojo</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>Tiempo Local</h1>
+        </div>
+        <div>
+            <a href="#" id="osorno">Osorno</a>
+            <a href="#" id="santiago">Santiago</a>
+            <a href="#" id="entrelagos">Entre Lagos</a>
+            <a href="#" id="pttmont">Puerto Mont</a>
+            <a href="#" id="temuco">Temuco</a>
+        </div>
+        <div>
+                <p>Mostrar Temperatura en </p>
+                <select>
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+        </div>
+    </nav>
+    <div id="contenedor" class="contenedor">
+       <div id="cosorno" class="subcont">
+        <h1>Osorno</h1>   
+        <div class="climas" id="cosorno">
+            <div id="dias">
+                <img src="solynube.png" alt="">
+                <h3>Hoy</h3>
+                Parcialmente Soleado 
+                <br><br>
+                20C° 4°C°
+            </div>
+            <div id="dias">
+                <img src="sol.png" alt="">
+                <h3>Mañana</h3>
+                Soleado
+                <br><br>
+                20C° 5°C°
+            </div>
+            <div id="dias">
+                <img src="sol.png" alt="">
+                <h3>Viernes</h3>
+                Soleado
+                <br><br>
+                20C° 7C°
+            </div>
+            <div id="dias">
+                <img src="sol.png" alt="">
+                <h3>Sábado</h3>
+                Soleado
+                <br><br>
+                23C° 7C°
+            </div>
+            <div id="dias">
+                <img src="sol.png" alt="">
+                <h3>Domingo</h3>
+                Soleado
+                <br><br>
+                22C° 7C°
+            </div>
+        </div>
+        </div>
+        <div id="csantiago" class="subcont">
+            <h1>Santiago</h1>
+            <div class="climas" id="csantiago">
+                <div id="dias">
+                    <img src="sol.png" alt="">
+                    <h3>Hoy</h3>
+                    Soleado 
+                    <br><br>
+                    26C° 12°C°
+                </div>
+                <div id="dias">
+                    <img src="nube.png" alt="">
+                    <h3>Mañana</h3>
+                    Nublado
+                    <br><br>
+                    23C° 12°C°
+                </div>
+                <div id="dias">
+                    <img src="solynube.png" alt="">
+                    <h3>Viernes</h3>
+                    Parcialmente Nublado
+                    <br><br>
+                    16C° 10C°
+                </div>
+                <div id="dias">
+                    <img src="lluvia.png" alt="">
+                    <h3>Sábado</h3>
+                    Lluvia
+                    <br><br>
+                    19C° 10C°
+                </div>
+                <div id="dias">
+                    <img src="lluvia.png" alt="">
+                    <h3>Domingo</h3>
+                    Lluvia
+                    <br><br>
+                    18C° 9C°
+                </div>
+            </div>
+        </div>
+            <div id="centrelagos" class="subcont">
+                <h1>Entre lagos</h1>   
+                <div class="climas" id="centrelagos">
+                    <div id="dias">
+                        <img src="lluvia.png" alt="">
+                        <h3>Hoy</h3>
+                        Lluvia 
+                        <br><br>
+                        14C° 6°C°
+                    </div>
+                    <div id="dias">
+                        <img src="nube.png" alt="">
+                        <h3>Mañana</h3>
+                        Nublado
+                        <br><br>
+                        10C° 4°C°
+                    </div>
+                    <div id="dias">
+                        <img src="nube.png" alt="">
+                        <h3>Miercoles</h3>
+                        Nublado
+                        <br><br>
+                        16C° 10C°
+                    </div>
+                    <div id="dias">
+                        <img src="nube.png" alt="">
+                        <h3>Jueves</h3>
+                        Nublado
+                        <br><br>
+                        25C° 17C°
+                    </div>
+                    <div id="dias">
+                        <img src="solynube.png" alt="">
+                        <h3>Viernes</h3>
+                        Mayormente Soleado
+                        <br><br>
+                        19C° 10C°
+                    </div>
+                </div>
+            </div>
+                <div id="cpttmont" class="subcont">
+                    <h1>Puerto Montt</h1>   
+                    <div class="climas" id="cpttmont">
+                        <div id="dias">
+                            <img src="lluvia.png" alt="">
+                            <h3>Hoy</h3>
+                            Lluvia 
+                            <br><br>
+                            14C° 6°C°
+                        </div>
+                        <div id="dias">
+                            <img src="lluvia.png" alt="">
+                            <h3>Mañana</h3>
+                            Lluvia
+                            <br><br>
+                            15C° 10°C°
+                        </div>
+                        <div id="dias">
+                            <img src="sol.png" alt="">
+                            <h3>Miercoles</h3>
+                            Soleado
+                            <br><br>
+                            16C° 10C°
+                        </div>
+                        <div id="dias">
+                            <img src="sol.png" alt="">
+                            <h3>Jueves</h3>
+                            Soleado
+                            <br><br>
+                            25C° 17C°
+                        </div>
+                        <div id="dias">
+                            <img src="tormenta.png" alt="">
+                            <h3>Viernes</h3>
+                            Tormenta
+                            <br><br>
+                            15C° 5C°
+                        </div>
+                    </div>
+                </div>
+                    <div id="ctemuco" class="subcont">
+                        <h1>Temuco</h1>  
+                        <div class="climas" id="ctemuco">
+                            <div id="dias">
+                                <img src="sol.png" alt="">
+                                <h3>Hoy</h3>
+                                Soleado
+                                <br><br>
+                                14C° 6°C°
+                            </div>
+                            <div id="dias">
+                                <img src="sol.png" alt="">
+                                <h3>Mañana</h3>
+                                Soleado
+                                <br><br>
+                                10C° 4°C°
+                            </div>
+                            <div id="dias">
+                                <img src="nube.png" alt="">
+                                <h3>Miercoles</h3>
+                                Nublado
+                                <br><br>
+                                16C° 10C°
+                            </div>
+                            <div id="dias">
+                                <img src="sol.png" alt="">
+                                <h3>Jueves</h3>
+                                Soleado
+                                <br><br>
+                                25C° 17C°
+                            </div>
+                            <div id="dias">
+                                <img src="solynube.png" alt="">
+                                <h3>Viernes</h3>
+                                Mayormente Soleado
+                                <br><br>
+                                19C° 10C°
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    <footer>
+        Detente! Tiempo de cookies. Usamos cookies (tristemente, no las comestibles) para personalizar contenido y anuncios, proporcionar funciones de redes sociales y analizar nuestro trafico.  <a href="#" id="coki">Leer más...</a>
+        <button id="aceptar">Acepto</button>
+    </footer>
+</body>
+</html>
