@@ -1,0 +1,99 @@
+body{
+    margin: 0 auto;
+    width: auto;
+    font-size: 115%;
+    overflow: hidden;
+}
+.network{
+    color:white ;
+    background-color: rgb(68, 68, 68);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.network h2{
+    margin-left: 900px;
+}
+.tit{
+    width: 100%;
+    padding-left: 580px;
+}
+.contperfil{
+    width: 325px;
+    height: 400px;
+    margin-left: 5%;
+    top: 10%;
+    border-radius: 5px;
+    border-color: black;
+    border: solid;
+}
+.nom{
+    padding-top: 25%;
+    padding-left: 11%;
+}
+img{
+    border-radius: 100%;
+    width: 225px;
+    height: 225px;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+.pcont{
+    border-radius: 10px;
+    border-color:rgb(53, 52, 52);
+    border-style: solid;
+    width: 1200px;
+    height: 165px;
+    background-color: rgb(236, 235, 235);
+    position: relative;
+    left: 30%;
+    bottom: 400px;
+}
+.arriba{
+    margin-left: 35px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    width: 110px;
+    
+}
+.abajo{
+    margin-top: -20px;
+    margin-left: 35px;
+}
+.boton{
+    width: 45px;
+    height: 30px;
+    margin-top: 16px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+}
+.scont{
+    border-radius: 10px;
+    border-color: 1px solid rgb(53, 52, 52);
+    border-style: solid;
+    width: 1200px;
+    height: 165px;
+    background-color: rgb(236, 235, 235);
+    position: relative;
+    left: 30%;
+    bottom: 375px;
+}
+.tcont{
+    border-radius: 10px;
+    border-color: 1px solid rgb(53, 52, 52);
+    border-style: solid;
+    width: 1200px;
+    height: 165px; 
+    background-color: rgb(236, 235, 235);
+    position: relative;
+    left: 30%;
+    bottom: 345px;
+}

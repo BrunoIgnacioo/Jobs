@@ -58,7 +58,8 @@ img{
     display:flex ;
     flex-direction: column;
     justify-content: center;
-    align-items:center ;text-align: center;
+    align-items:center ;
+    text-align: center;
 }
 footer{
     background-color: rgb(0, 0, 0);

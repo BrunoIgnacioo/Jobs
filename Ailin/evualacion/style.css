@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.petshelter {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    background-color: darkcyan;
+    width: 100%;
+    height: 200px;
+}
+
+.petshelter h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifSS;
+}
+
+.arriba {
+    display: flex;
+    flex-flow: row wrap;
+    height: 45%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 45%;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 45%;
+    gap: 10px;
+    align-items: center;
+}
+
+.abajo {
+    display: flex;
+    flex-flow: row wrap;
+    height: 50%;
+    width: 100%;;
+    justify-content: space-around;
+}
+
+.parte1 {
+    display: flex;
+    width: 30%;
+    height: 30px;
+}
+
+.parte2 {
+    display: flex;
+    width: 30%;
+    height: 30px;
+}
+
+.parte3 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 30%;
+    justify-content: center;
+    height: 30px;
+}
+
+.parte3 button {
+    background-color: blueviolet;
+    color: aliceblue;
+    border-color: black;
+}
+
+.petshelter img {
+    height: 65px;
+    width: 65px;
+    margin-top: 20px;
+}
+
+.nav-links {
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-links li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+.nav-links button {
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    border-color: blueviolet;
+}* {
+    padding: 0;
+    margin: 0;
+}
+
+.petshelter {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    background-color: darkcyan;
+    width: 100%;
+    height: 200px;
+}
+
+.petshelter h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifSS;
+}
+
+.arriba {
+    display: flex;
+    flex-flow: row wrap;
+    height: 45%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 45%;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 45%;
+    gap: 10px;
+    align-items: center;
+}
+
+.abajo {
+    display: flex;
+    flex-flow: row wrap;
+    height: 50%;
+    width: 100%;;
+    justify-content: space-around;
+}
+
+.parte1 {
+    display: flex;
+    width: 30%;
+    height: 30px;
+}
+
+.parte2 {
+    display: flex;
+    width: 30%;
+    height: 30px;
+}
+
+.parte3 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 30%;
+    justify-content: center;
+    height: 30px;
+}
+
+.parte3 button {
+    background-color: blueviolet;
+    color: aliceblue;
+    border-color: black;
+}
+
+.petshelter img {
+    height: 65px;
+    width: 65px;
+    margin-top: 20px;
+}
+
+.nav-links {
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-links li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+.nav-links button {
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    border-color: blueviolet;
+}

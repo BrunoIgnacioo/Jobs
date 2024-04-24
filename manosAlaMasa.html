@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>    
+    console.log(" ");
+    function pizzaOver(nombre,masa, ingredientes,queso, salsas) {
+        var pizza = {};
+        pizza.masa = masa;
+        pizza.ingredientes = ingredientes;
+        pizza.queso = queso;
+        pizza.salsas = salsas;
+        pizza.nombre = nombre;
+        pizza.nmpizza = function(){
+            console.log("Nombre de la pizza:",pizza.nombre);
+        }
+        return pizza;
+};
+    
+    var s1 = pizzaOver("Margarita", "Tradicional", "Albahaca","Mozzarela", "Salsa de Tomate",);
+    var s2 = pizzaOver("4 Quesos", "Masa Madre",["Queso Mozzarela","Queso Azul", "Queso Gorgonzola", "Queso Fortina"],"","Salsa de Tomate");
+    var s3 = pizzaOver("Estilo Chicago", "Tradicional",[ "pepperoni","salchicha",], "Mozzarella", "Salsa de Tomate");
+    var s4 = pizzaOver("Lanzadqa a Mano", "Marinara",[ "champiñones","aceitunas", "cebollas"], "mozzarella","Salsa de Tomate");
+    var s5 = pizzaOver("hawaiana", "Tradicional", "pedazos de jamón"," mozzarella ","Salsa de Tomate");
+    console.log(s1);
+    console.log(s1.nmpizza);
+    console.log(s2);
+    console.log(s3);
+    console.log(s4);
+    console.log(s5);
+    
+    </script>
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="petshelter">
+        <div class="arriba">
+            <div class="logo" id="logo">
+                <img src="heart-light.png" id="corazon">
+                <h1>Pet Shelter</h1>
+            </div>
+            <div class="menu" id="menu">
+                <ul class="nav-links">
+                    <li><a href="#">Find a pet</a></li>
+                    <li><a href="#">About</a></li>
+                    <button class="ocultarbtn" onclick="hide(this)">donate</button>
+                </ul>
+            </div>
+        </div>
+        <div class="abajo" id="abajo">
+            <div class="parte1" id="parte1">
+                <label for="text"> im looking for a...</label>
+                <img src="paw-light.png" alt="patita">
+                <select name="animal" id="">
+                    <option value="any pet">any pet</option>
+                    <option value="dog">dog</option>
+                    <option value="cat">cat</option>
+                </select>
+            </div>
+            <div class="parte2" id="parte2">
+                <label>in or near...</label>
+                <img src="pin-light.png" alt="pin">
+                <input type="text" placeholder="city or zip code">
+            </div>
+            <div class="parte3" id="parte3">
+                <button class="btn-pet" id="btn-pet">
+                    Find your new best friend
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="container-pet">
+        <div class="container-pepper">
+            <h1>Pepper</h1>
+            <img src="pepper.jpg" alt="pepper">
+            <div id="btn1">
+                <p id="pet1" class="pet1">3 petting(s)</p>
+                <button id="aumentobtn1" onclick="aumentarbtn1()">pet pepper</button>
+            </div>
+            <p id="texto1"> pepper is a sightly shy grey tabby, but she really loves showing her human affection</p>
+        </div>
+    </div>
+    
+</body>
+</html>

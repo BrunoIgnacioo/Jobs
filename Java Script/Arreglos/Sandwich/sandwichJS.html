@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        var hamburguesaClasica = {
+    "pan": "pan de hamburguesa",
+    "carne": "carne de res",
+    "queso": "cheddar",
+    "extras": ["lechuga", "tomate", "cebolla", "pepinillos"]
+    };
+    var hamburguesaClasica = {
+    "pan": "pan con semillas de sésamo",
+    "carne": "carne de res 100%",
+    "queso": "queso cheddar",
+    "extras": ["lechuga", "tomate", "cebolla", "salsa especial"],
+    "infoHamburguesa": function() {
+        console.log("Pan: " + this.pan);
+        console.log("Carne: " + this.carne);
+        console.log("Queso: " + this.queso);
+        console.log("Extras: " + this.extras.join(", "));
+    }
+}
+var hamburguesaEspecial = {
+    "pan": "pan de hamburguesa",
+    "carne": "carne de res",
+    "queso": "queso americano",
+    "extras": ["lechuga", "tomate", "cebolla", "salsa especial"],
+    "infoHamburguesa": function() {
+        console.log("Pan: " + this.pan);
+        console.log("Carne: " + this.carne);
+        console.log("Queso: " + this.queso);
+        console.log("Extras: " + this.extras.join(", "));
+    }
+}
+// Ahora, con solo una línea, ¡podemos obtener todos los detalles de nuestra hamburguesa clásica!
+hamburguesaClasica.infoHamburguesa()
+    </script>
+    <title>Document</title>
+</head>
+<body>  
+</body>
+</html>

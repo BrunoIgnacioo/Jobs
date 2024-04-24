@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function numerosBajoPromedio(arreglo) {
+    let total = 0;
+    for (let i = 0; i < arreglo.length; i++) {
+        total += arreglo[i];
+    }
+    const promedio = total / arreglo.length;
+    let numerosBajoPromedio = [];
+    for (let i = 0; i < arreglo.length; i++) {
+        if (arreglo[i] < promedio) {
+            numerosBajoPromedio.push(arreglo[i]);
+        }
+    }
+    return numerosBajoPromedio;
+}
+
+// Ejemplo de uso
+console.log(numerosBajoPromedio([1, 20, 3, 4, 15, 6, 27]));
+    </script>
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
