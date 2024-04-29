@@ -34,7 +34,6 @@ body{
     color: white;
     text-align: center;
     justify-content: space-between;
-    align-items: center;
 }
 .derecha h2{
     display: flex;
@@ -131,10 +130,10 @@ body{
     margin-top: 20px;
 }
 .imgmedianos{
-    width: 295px;
+    width: 300px;
     height: 130px;
     border-color: black;
-
+    border-bottom: 3px solid;
 }
 .p1{
     background-color: rgb(255, 255, 255);
@@ -185,7 +184,7 @@ body{
     align-content: center;
     align-items: center;
     height: 35px;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 .descuento{
     background-color:blueviolet;
@@ -200,15 +199,25 @@ body{
 .precio{
     color: black;
     display: flex;
+    flex-direction: column;
     margin-left: 15px;
     margin-right: 15px;
+}
+.precio p{
+    margin: 0%;
+    padding: 0;
+}
+.precio del{
+    font-size: 13px;
+    color: rgb(168, 168, 168);
 }
 #buy{
     color: white;
     background-color: rgb(72, 255, 0);
     font-size: 15px;
     display: flex;
-    padding:  10px 10px 10px 10px;
+    padding:  8px 8px 8px 8px;
+    border-radius: 10px;
     margin-left: 15px;
     margin-right: 15px;
 }

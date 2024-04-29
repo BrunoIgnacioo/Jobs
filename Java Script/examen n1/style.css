@@ -1,0 +1,135 @@
+body{
+    width: 0 auto;
+    margin: 0 auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.top h1{
+    font-size: 35px;
+}
+.top *{
+    margin-right: 20px;
+}
+#sesion{
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+#search{
+    width: 750px;
+    height: 35px;
+    border-radius: 40px;
+}
+#cart{
+    width: 40px;
+    height: 40px;
+}
+#hoja{
+    background-color: rgb(24, 211, 148);
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:solid 5px;
+    border-color: black;
+    width: 100%;
+    height: 70px;
+}
+.bottom *{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+}
+a:hover{
+    color: rgb(0, 104, 17);
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    padding-left: 195px;
+}
+#titulo{
+    font-size: 35px;
+}
+.linea1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.discover{
+    color: white;
+    display: flex;  
+    width: 800px;
+}
+.succ{
+    display: flex;
+}
+.text{
+    background-color: rgba(29, 185, 133, 0.842);
+    width: 370px;
+}
+.text p{
+    font-size: 32px;
+}
+.text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#imgaloe{
+    width: 380px;
+    height: 250px;
+}
+.aloe{
+    background-color: rgba(29, 185, 133, 0.842);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.aloe *{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.linea2{
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    margin-top: 15px;
+}
